@@ -1,3 +1,4 @@
+alert("NOT RESPONSIVE!!!!!!!!!!");
 /*----NEWS SLIDER----*/
 $(document).ready(function () {
   let $slider = $(".news__slider").slick({
@@ -229,7 +230,6 @@ function initMap() {
 /*----NAV styles-----*/
 $(document).ready(function () {
   $(window).scroll(function () {
-    console.log(pageYOffset);
     if (pageYOffset >= 0 && pageYOffset < 800) {
       for (let i = 0; i < $(".nav__dot").length; i++) {
         $($(".nav__dot")[i]).removeClass("active-dot--blue");
